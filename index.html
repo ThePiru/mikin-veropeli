@@ -11,10 +11,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>index</title>
+<title>Veropeli</title>
 <!-- write your code here -->
+<link rel="stylesheet" href="style/style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="index.js"></script>
+<script src="js/index.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -63,10 +65,26 @@ function playSound(id, loop, offset) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:960px; height:640px">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:960px; height:640px; margin-left:auto; margin-right:auto; display: block; margin-top: 30px; margin-bottom: 30px; border: 2px solid black">
 		<canvas id="canvas" width="960" height="640" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:640px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
+	</div>
+	<div style="margin-left:auto; margin-right:auto; display: block; text-align:center;">
+		<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="sir.juho" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<div class="center">
+<div id="social-test">
+  <h2>SEURAA SOMESSA</h2>
+<ul class="social">
+  <li><a href="https://www.instagram.com/juho_pietila/" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.tiktok.com/@juhopietila" target="_blank"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/juho-pietilä" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+</ul>
+</div>
+  </div>
+
 	</div>
 </body>
 </html>
